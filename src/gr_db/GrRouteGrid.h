@@ -6,6 +6,11 @@
 
 namespace gr {
 class GrRouteGrid : public GCellGrid {
+    // routeWireMap
+    // routeViaMap
+    // histWireUsageMap
+    // routeViaMap
+
 public:
     using UsageT = double;
     using UsageMapT = vector<vector<vector<UsageT>>>;

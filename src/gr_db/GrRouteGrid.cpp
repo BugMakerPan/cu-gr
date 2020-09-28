@@ -5,6 +5,8 @@
 
 namespace gr {
 void GrRouteGrid::init() {
+    // initialize routedWireMap, fixedMetalMap, histWireMap and routedViaMap.
+    // init GCellGrid
     int numLayers = database.getLayerNum();
     routedWireMap.resize(numLayers);
     fixedMetalMap.resize(numLayers);
